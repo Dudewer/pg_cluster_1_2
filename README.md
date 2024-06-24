@@ -16,7 +16,6 @@ docker-compose up -d
 При `synchronous_commit = off` произошла потеря 47 записи из 1 миллиона.
 
 При `synchronous_commit = remote_apply` потери данных не обнаружено.
-
 2. Ошибка slave
 При `synchronous_commit = off` потери данных не обнаружено.
 
